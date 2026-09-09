@@ -1,0 +1,427 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "designplus---canvas-login-and-dashboard-page-functionality;user-logs-in-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User logs in with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26784599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user browse the cidilabs canvas url",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3092247600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "enter Invalid \"Username\" in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105774599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "enter Invalid \"Password\" in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83274699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click on \"LogIn\" button in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 659180498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "an error message \"Please verify your username or password and try again. Trouble logging in? \" should be displayed",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 374041399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2881600
+            },
+            "embeddings": [
+              {
+                "data": "🟢 BeforeAll: Launching browser: Chromium\n🔄 Before: Reusing existing browser context...\n📌 Scenario \"User logs in with invalid credentials\" finished with status: PASSED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "designplus---canvas-login-and-dashboard-page-functionality;user-logs-in-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "User logs in with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1029000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "user browse the cidilabs canvas url",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 825238198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "enter valid \"Username\" in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75302498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "enter valid \"Password\" in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30932399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "click on \"LogIn\" button in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7739903099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the user should be redirected to the \"Dashboard\" page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8036854298
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 836400
+            },
+            "embeddings": [
+              {
+                "data": "🔄 Before: Reusing existing browser context...\nActual title: Dashboard\nExpected title: Dashboard\nTitle validation successful.\n📌 Scenario \"User logs in with valid credentials\" finished with status: PASSED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 11
+          },
+          {
+            "name": "@regression_suite1",
+            "line": 11
+          },
+          {
+            "name": "@regression_suite2",
+            "line": 11
+          },
+          {
+            "name": "@regression_suite3",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "designplus---canvas-login-and-dashboard-page-functionality;ensure-course-page-opens-and-navigate-to-pages-to-create-a-pages",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Ensure course page opens and navigate to Pages to create a pages",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 788900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "user navigates to a course from the Dashboard",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5615386799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the corresponding course page should open",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:167"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1612039000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "user click on the \"Pages\" link in the Canvas course left navigation bar",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:180"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3637606398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "user click on the \"Page Creation\" button",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5955665598
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2009399
+            },
+            "embeddings": [
+              {
+                "data": "🔄 Before: Reusing existing browser context...\nActual title: Automation Testing - DesignPLUS Primary Customizations Course\nExpected title: Automation Testing - DesignPLUS Primary Customizations Course\nTitle validation successful.\nAdd Page button visible: true\n📌 Scenario \"Ensure course page opens and navigate to Pages to create a pages\" finished with status: PASSED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 19
+          },
+          {
+            "name": "@regression_suite1",
+            "line": 19
+          },
+          {
+            "name": "@regression_suite2",
+            "line": 19
+          },
+          {
+            "name": "@regression_suite3",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "designplus---canvas-login-and-dashboard-page-functionality;validate-if-automatically-launch-sidebar-is-checked",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Validate if Automatically Launch Sidebar is checked",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1213999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "user clicks on \"More options\" button in DesignPLUS header",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:241"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10096063999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "user clicks on \"User Settings\" option in More options button",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:296"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 28790512399,
+              "error_message": "locator.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//ul[@class=\"dropdown-menu show\"]//a[text()=\\'User Settings\\']')\u001b[22m\n\n    at World.<anonymous> (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:298:25)\n    at step (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:33:23)\n    at Object.next (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:14:53)\n    at D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:8:71\n    at __awaiter (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:4:12)\n    at World.<anonymous> (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:601:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "\"Automatically Launch Sidebar\" checkbox should be checked in User Settings",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:302"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1407599
+            },
+            "embeddings": [
+              {
+                "data": "Error Details:\nlocator.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//ul[@class=\"dropdown-menu show\"]//a[text()=\\'User Settings\\']')\u001b[22m\n",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "🔄 Before: Reusing existing browser context...\nDesignPLUS Sidebar is not present\nDesignPLUS button is visible, clicking it directly.\nClosed notification center.\n📌 Scenario \"Validate if Automatically Launch Sidebar is checked\" finished with status: FAILED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 26
+          },
+          {
+            "name": "@regression_suite1",
+            "line": 26
+          },
+          {
+            "name": "@regression_suite2",
+            "line": 26
+          },
+          {
+            "name": "@regression_suite3",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "designplus---canvas-login-and-dashboard-page-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "DesignPLUS - Canvas Login and Dashboard Page Functionality",
+    "tags": [],
+    "uri": "src\\features\\1.CanvasLogin\\A.CanvaLogin.feature"
+  }
+]

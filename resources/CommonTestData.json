@@ -1,0 +1,11 @@
+{
+  "title": "The Lottery.pdf",
+  "lastIssueFileName": "Dickinson_Sample_Slides.ppt",
+  "Images": {
+    "SampleImage": "resources/images/Sample.png",
+    "Logo": "resources/images/Sample2.png"
+  },
+  "TestTextData": {
+    "PageTitleTemplate": "Test Page {RANDOM}"
+  }
+}

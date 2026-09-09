@@ -1,0 +1,14 @@
+{
+  
+  "Users": [
+    {
+      "Username": "fodan47818@bsomek.com",
+      "Password": "New20261",
+      "UserKey": "invalidUser"
+    }
+  ],
+  "Courses":
+  {
+      "CanvasCourse":"Automation Testing - DesignPLUS Primary Customizations Course"
+  }
+}

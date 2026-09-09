@@ -1,0 +1,1036 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "designplus---canvas-login-and-dashboard-page-functionality;user-logs-in-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User logs in with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3725099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user browse the cidilabs canvas url",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2837820099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "enter Invalid \"Username\" in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104339099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "enter Invalid \"Password\" in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144249499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click on \"LogIn\" button in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1253210799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "an error message \"Please verify your username or password and try again. Trouble logging in? \" should be displayed",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 699786899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2307000
+            },
+            "embeddings": [
+              {
+                "data": "🟢 BeforeAll: Launching browser: Chromium\n🔄 Before: Reusing existing browser context...\n📌 Scenario \"User logs in with invalid credentials\" finished with status: PASSED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "designplus---canvas-login-and-dashboard-page-functionality;user-logs-in-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "User logs in with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1309900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "user browse the cidilabs canvas url",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 710405300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "enter valid \"Username\" in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101248000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "enter valid \"Password\" in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32776000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "click on \"LogIn\" button in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1852710299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the user should be redirected to the \"Dashboard\" page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8038755799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 685000
+            },
+            "embeddings": [
+              {
+                "data": "🔄 Before: Reusing existing browser context...\nActual title: Dashboard\nExpected title: Dashboard\nTitle validation successful.\n📌 Scenario \"User logs in with valid credentials\" finished with status: PASSED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 11
+          },
+          {
+            "name": "@regression_suite1",
+            "line": 11
+          },
+          {
+            "name": "@regression_suite2",
+            "line": 11
+          },
+          {
+            "name": "@regression_suite3",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "designplus---canvas-login-and-dashboard-page-functionality;ensure-course-page-opens-and-navigate-to-pages-to-create-a-pages",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Ensure course page opens and navigate to Pages to create a pages",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 671099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "user navigates to a course from the Dashboard",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5110418199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the corresponding course page should open",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:167"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5534457899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "user click on the \"Pages\" link in the Canvas course left navigation bar",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:180"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3209139900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "user click on the \"Page Creation\" button",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5855398998
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14695800
+            },
+            "embeddings": [
+              {
+                "data": "🔄 Before: Reusing existing browser context...\nActual title: Automation Testing - DesignPLUS Primary Customizations Course\nExpected title: Automation Testing - DesignPLUS Primary Customizations Course\nTitle validation successful.\nAdd Page button visible: true\n📌 Scenario \"Ensure course page opens and navigate to Pages to create a pages\" finished with status: PASSED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 19
+          },
+          {
+            "name": "@regression_suite1",
+            "line": 19
+          },
+          {
+            "name": "@regression_suite2",
+            "line": 19
+          },
+          {
+            "name": "@regression_suite3",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "designplus---canvas-login-and-dashboard-page-functionality;launch-designplus-from-canvas-course-page",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Launch DesignPLUS from Canvas course page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11997800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "user Launches the DesignPLUS from Canvas course page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:201"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 31905614099,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at ReUsableMethods.<anonymous> (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\util\\ReUsableMethods.ts:38:29)\n    at step (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\util\\ReUsableMethods.ts:33:23)\n    at Object.throw (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\util\\ReUsableMethods.ts:14:53)\n    at rejected (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\util\\ReUsableMethods.ts:6:65)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 567899
+            },
+            "embeddings": [
+              {
+                "data": "Error Details:\npage.waitForTimeout: Target page, context or browser has been closed",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "🔄 Before: Reusing existing browser context...\nDesignPLUS Sidebar is not present\nDesignPLUS button is visible, clicking it directly.\n[ERROR] Error clicking on element (attempt 1/2): locator.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//button[@class=\\'float-end footer-button open\\' and @id=\\'toggleNotificationVisibility\\']')\u001b[22m\n\u001b[2m    - locator resolved to <button id=\"toggleNotificationVisibility\" class=\"float-end footer-button open\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div lang=\"en\" id=\"dp-tools-wrapper\" class=\"dp-tools-wrapper dp-wrapper\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div lang=\"en\" id=\"dp-tools-wrapper\" class=\"dp-tools-wrapper dp-wrapper\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    42 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div lang=\"en\" id=\"dp-tools-wrapper\" class=\"dp-tools-wrapper dp-wrapper\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\nBrowser context closed, waiting before retry 2...\n📌 Scenario \"Launch DesignPLUS from Canvas course page\" finished with status: FAILED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 26
+          },
+          {
+            "name": "@regression_suite1",
+            "line": 26
+          },
+          {
+            "name": "@regression_suite2",
+            "line": 26
+          },
+          {
+            "name": "@regression_suite3",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "designplus---canvas-login-and-dashboard-page-functionality;validate-if-automatically-launch-sidebar-is-checked",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Validate if Automatically Launch Sidebar is checked",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 797300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "user clicks on \"More options\" button in DesignPLUS header",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:253"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 4300698,
+              "error_message": "locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed\n    at World.<anonymous> (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:264:19)\n    at step (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:33:23)\n    at Object.next (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:14:53)\n    at fulfilled (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:5:58)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "user clicks on \"User Settings\" option in More options button",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:269"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "\"Automatically Launch Sidebar\" checkbox should be checked in User Settings",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:275"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "user closes the User Settings modal",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:285"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 808000
+            },
+            "embeddings": [
+              {
+                "data": "Error Details:\nlocator.scrollIntoViewIfNeeded: Target page, context or browser has been closed",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "🔄 Before: Reusing existing browser context...\n\"More Options\" dropdown not open — clicking button.\n📌 Scenario \"Validate if Automatically Launch Sidebar is checked\" finished with status: FAILED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 30
+          },
+          {
+            "name": "@regression_suite1",
+            "line": 30
+          },
+          {
+            "name": "@regression_suite2",
+            "line": 30
+          },
+          {
+            "name": "@regression_suite3",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "designplus---canvas-login-and-dashboard-page-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "DesignPLUS - Canvas Login and Dashboard Page Functionality",
+    "tags": [],
+    "uri": "src\\features\\1.CanvasLogin\\A.CanvaLogin.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "designplus---add-new-elements-page-functionality;validating-the-avilable-categories-in-the-add-new-elements-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Validating the avilable categories in the Add New Elements Page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 843899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "click on the \"Add New Elements\" button in DesignPLUS header",
+            "match": {
+              "location": "src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:13"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3733698,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:14:17)\n    at step (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:33:23)\n    at Object.next (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:14:53)\n    at D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:8:71\n    at __awaiter (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:4:12)\n    at World.<anonymous> (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:49:12)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Favorite Tools"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Getting Started"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Basic Content"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Navigation"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Page Layout"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Interactive"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Visual Enhancements"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Themed Elements"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Custom Content"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Page Information"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Course Information"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Media"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Editor Action Items"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user verify the available categories in the Add New Elements page",
+            "match": {
+              "location": "src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2232100
+            },
+            "embeddings": [
+              {
+                "data": "Error Details:\npage.waitForTimeout: Target page, context or browser has been closed",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "🔄 Before: Reusing existing browser context...\n📌 Scenario \"Validating the avilable categories in the Add New Elements Page\" finished with status: FAILED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "designplus---add-new-elements-page-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "DesignPLUS - Add New Elements Page Functionality",
+    "tags": [],
+    "uri": "src\\features\\2.AddNewElement\\A.DesignPLUSHeader.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "designplus-–-\"button\"-tool-functionality;validate-available-tools-in-\"basic-content\"-section",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Validate available tools in \"Basic Content\" Section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2423300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "click on the \"Add New Elements\" button in DesignPLUS header",
+            "match": {
+              "location": "src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:13"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3137998,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:14:17)\n    at step (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:33:23)\n    at Object.next (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:14:53)\n    at D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:8:71\n    at __awaiter (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:4:12)\n    at World.<anonymous> (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:49:12)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Button"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Course Links"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Description List"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Divider"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Image"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Image & Caption"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Link"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "List: Ordered"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "List: Unordered"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Table"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Text"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Text Highlight"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the following \"tools\" should be visible under \"Basic Content\" section:",
+            "match": {
+              "location": "src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\2.BasicContent\\ButtonSteps.ts:5"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 582699
+            },
+            "embeddings": [
+              {
+                "data": "Error Details:\npage.waitForTimeout: Target page, context or browser has been closed",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "🔄 Before: Reusing existing browser context...\n📌 Scenario \"Validate available tools in \"Basic Content\" Section\" finished with status: FAILED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "designplus-–-\"button\"-tool-functionality;validating-the-\"button\"-tool-functionality",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Validating the \"Button\" tool functionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 471900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "click on the \"Add New Elements\" button in DesignPLUS header",
+            "match": {
+              "location": "src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:13"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2233898,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:14:17)\n    at step (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:33:23)\n    at Object.next (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:14:53)\n    at D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:8:71\n    at __awaiter (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:4:12)\n    at World.<anonymous> (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:49:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "user click on the \"Button\" tool under the \"Basic Content\" category in the \"Add New Elements\" tab",
+            "match": {
+              "location": "src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\1.GettingStarted\\BannerTitleSteps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the \"Button\" editing tab should open in the DesignPLUS sidebar",
+            "match": {
+              "location": "src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\1.GettingStarted\\BannerTitleSteps.ts:11"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Content"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Style"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Quick Styles"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Advanced"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Preview"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "following panel should be visible in the \"Banner Title\" editing tab",
+            "match": {
+              "location": "src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\1.GettingStarted\\BannerTitleSteps.ts:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "\"Button\" tool should be created in the \"Rich Content Editor\" frame",
+            "match": {
+              "location": "src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\2.BasicContent\\ButtonSteps.ts:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 301500
+            },
+            "embeddings": [
+              {
+                "data": "Error Details:\npage.waitForTimeout: Target page, context or browser has been closed",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "🔄 Before: Reusing existing browser context...\n📌 Scenario \"Validating the \"Button\" tool functionality\" finished with status: FAILED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 20
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "designplus-–-\"button\"-tool-functionality;validating-functionality-of-\"info\"-icon-and-\"user-guide:-buttons\"-link-under-the-\"button\"-tool",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Validating functionality of \"Info\" icon and \"User Guide: Buttons\" link under the \"Button\" tool",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 452999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "the \"Button\" editing tab should open in the DesignPLUS sidebar",
+            "match": {
+              "location": "src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\1.GettingStarted\\BannerTitleSteps.ts:11"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 7541998,
+              "error_message": "locator._expect: Target page, context or browser has been closed\n    at World.<anonymous> (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\1.GettingStarted\\BannerTitleSteps.ts:12:66)\n    at step (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\1.GettingStarted\\BannerTitleSteps.ts:33:23)\n    at Object.next (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\1.GettingStarted\\BannerTitleSteps.ts:14:53)\n    at D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\1.GettingStarted\\BannerTitleSteps.ts:8:71\n    at __awaiter (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\1.GettingStarted\\BannerTitleSteps.ts:4:12)\n    at World.<anonymous> (D:\\GitRepo\\DesignPlus\\dp-automation\\src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\1.GettingStarted\\BannerTitleSteps.ts:54:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "user clciks on the \"Info\" icon in the \"Button\" editing tab",
+            "match": {
+              "location": "src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\2.BasicContent\\ButtonSteps.ts:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "validate the available text in \"Button Help\" pop-up",
+            "match": {
+              "location": "src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\2.BasicContent\\ButtonSteps.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "verify the \"User Guide: Buttons\" link in the \"Button Help\" pop-up",
+            "match": {
+              "location": "src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\2.BasicContent\\ButtonSteps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 334499
+            },
+            "embeddings": [
+              {
+                "data": "Error Details:\nlocator._expect: Target page, context or browser has been closed",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "🔄 Before: Reusing existing browser context...\n📌 Scenario \"Validating functionality of \"Info\" icon and \"User Guide: Buttons\" link under the \"Button\" tool\" finished with status: FAILED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 33
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "designplus-–-\"button\"-tool-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "DesignPLUS – \"Button\" Tool Functionality",
+    "tags": [],
+    "uri": "src\\features\\3.AddNewElementAndEditCurrentElement\\2.BasicContent\\A.Button.feature"
+  }
+]

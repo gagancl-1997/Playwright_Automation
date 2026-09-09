@@ -1,0 +1,916 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "designplus---canvas-login-and-dashboard-page-functionality;user-logs-in-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User logs in with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3088100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user browse the cidilabs canvas url",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3474896498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "enter Invalid \"Username\" in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140149199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "enter Invalid \"Password\" in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126413199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click on \"LogIn\" button in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1210555599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "an error message \"Please verify your username or password and try again. Trouble logging in? \" should be displayed",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 378643700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1941200
+            },
+            "embeddings": [
+              {
+                "data": "🟢 BeforeAll: Launching browser: Chromium\n🔄 Before: Reusing existing browser context...\n📌 Scenario \"User logs in with invalid credentials\" finished with status: PASSED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "designplus---canvas-login-and-dashboard-page-functionality;user-logs-in-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "User logs in with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1024300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "user browse the cidilabs canvas url",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 599348599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "enter valid \"Username\" in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74796699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "enter valid \"Password\" in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30669299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "click on \"LogIn\" button in login page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6919887399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the user should be redirected to the \"Dashboard\" page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8041504098
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1065199
+            },
+            "embeddings": [
+              {
+                "data": "🔄 Before: Reusing existing browser context...\nActual title: Dashboard\nExpected title: Dashboard\nTitle validation successful.\n📌 Scenario \"User logs in with valid credentials\" finished with status: PASSED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 11
+          },
+          {
+            "name": "@regression_suite1",
+            "line": 11
+          },
+          {
+            "name": "@regression_suite2",
+            "line": 11
+          },
+          {
+            "name": "@regression_suite3",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "designplus---canvas-login-and-dashboard-page-functionality;ensure-course-page-opens-and-navigate-to-pages-to-create-a-pages",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Ensure course page opens and navigate to Pages to create a pages",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 698499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "user navigates to a course from the Dashboard",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5173402500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the corresponding course page should open",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:167"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6002032999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "user click on the \"Pages\" link in the Canvas course left navigation bar",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:180"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3145488498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "user click on the \"Page Creation\" button",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5858547999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7357399
+            },
+            "embeddings": [
+              {
+                "data": "🔄 Before: Reusing existing browser context...\nActual title: Automation Testing - DesignPLUS Primary Customizations Course\nExpected title: Automation Testing - DesignPLUS Primary Customizations Course\nTitle validation successful.\nAdd Page button visible: true\n📌 Scenario \"Ensure course page opens and navigate to Pages to create a pages\" finished with status: PASSED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 19
+          },
+          {
+            "name": "@regression_suite1",
+            "line": 19
+          },
+          {
+            "name": "@regression_suite2",
+            "line": 19
+          },
+          {
+            "name": "@regression_suite3",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "designplus---canvas-login-and-dashboard-page-functionality;launch-designplus-from-canvas-course-page",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Launch DesignPLUS from Canvas course page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1320099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "user Launches the DesignPLUS from Canvas course page",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5038863900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1271299
+            },
+            "embeddings": [
+              {
+                "data": "🔄 Before: Reusing existing browser context...\nDesignPLUS Sidebar is already open\nNo notification center to close.\n📌 Scenario \"Launch DesignPLUS from Canvas course page\" finished with status: PASSED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 26
+          },
+          {
+            "name": "@regression_suite1",
+            "line": 26
+          },
+          {
+            "name": "@regression_suite2",
+            "line": 26
+          },
+          {
+            "name": "@regression_suite3",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "designplus---canvas-login-and-dashboard-page-functionality;validate-if-automatically-launch-sidebar-is-checked",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Validate if Automatically Launch Sidebar is checked",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2839200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "user clicks on \"More options\" button in DesignPLUS header",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:253"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 231447299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "user clicks on \"User Settings\" option in More options button",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:269"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171523299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "\"Automatically Launch Sidebar\" checkbox should be checked in User Settings",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:275"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6418998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "user closes the User Settings modal",
+            "match": {
+              "location": "src\\StepDefinitions\\1.CanvasLogin\\CanvasLoginSteps.ts:285"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110252298
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1152300
+            },
+            "embeddings": [
+              {
+                "data": "🔄 Before: Reusing existing browser context...\n\"More Options\" dropdown not open — clicking button.\nClicked on option: User Settings\n✅ \"Automatically Launch Sidebar\" checkbox is checked.\nClosed User Settings modal.\n📌 Scenario \"Validate if Automatically Launch Sidebar is checked\" finished with status: PASSED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 30
+          },
+          {
+            "name": "@regression_suite1",
+            "line": 30
+          },
+          {
+            "name": "@regression_suite2",
+            "line": 30
+          },
+          {
+            "name": "@regression_suite3",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "designplus---canvas-login-and-dashboard-page-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "DesignPLUS - Canvas Login and Dashboard Page Functionality",
+    "tags": [],
+    "uri": "src\\features\\1.CanvasLogin\\A.CanvaLogin.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "designplus---add-new-elements-page-functionality;validating-the-avilable-categories-in-the-add-new-elements-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Validating the avilable categories in the Add New Elements Page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 917999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "click on the \"Add New Elements\" button in DesignPLUS header",
+            "match": {
+              "location": "src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3140109099
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Favorite Tools"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Getting Started"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Basic Content"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Navigation"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Page Layout"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Interactive"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Visual Enhancements"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Themed Elements"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Custom Content"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Page Information"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Course Information"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Media"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Editor Action Items"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user verify the available categories in the Add New Elements page",
+            "match": {
+              "location": "src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 250229498
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1485399
+            },
+            "embeddings": [
+              {
+                "data": "🔄 Before: Reusing existing browser context...\n\"Add New Elements\" header is now visible after clicking.\n📌 Scenario \"Validating the avilable categories in the Add New Elements Page\" finished with status: PASSED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "designplus---add-new-elements-page-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "DesignPLUS - Add New Elements Page Functionality",
+    "tags": [],
+    "uri": "src\\features\\2.AddNewElement\\A.DesignPLUSHeader.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "designplus-–-\"button\"-tool-functionality;validate-available-tools-in-\"basic-content\"-section",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Validate available tools in \"Basic Content\" Section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2691699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "click on the \"Add New Elements\" button in DesignPLUS header",
+            "match": {
+              "location": "src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3013978400
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Button"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Course Links"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Description List"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Divider"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Image"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Image & Caption"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Link"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "List: Ordered"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "List: Unordered"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Table"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Text"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Text Highlight"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the following \"tools\" should be visible under \"Basic Content\" section:",
+            "match": {
+              "location": "src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\2.BasicContent\\ButtonSteps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 197463300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 792700
+            },
+            "embeddings": [
+              {
+                "data": "🔄 Before: Reusing existing browser context...\n\"Add New Elements\" header is already visible, no need to click.\n✅ \"Button\" is visible under \"Basic Content\" section\n✅ \"Course Links\" is visible under \"Basic Content\" section\n✅ \"Description List\" is visible under \"Basic Content\" section\n✅ \"Divider\" is visible under \"Basic Content\" section\n✅ \"Image\" is visible under \"Basic Content\" section\n✅ \"Image & Caption\" is visible under \"Basic Content\" section\n✅ \"Link\" is visible under \"Basic Content\" section\n✅ \"List: Ordered\" is visible under \"Basic Content\" section\n✅ \"List: Unordered\" is visible under \"Basic Content\" section\n✅ \"Table\" is visible under \"Basic Content\" section\n✅ \"Text\" is visible under \"Basic Content\" section\n✅ \"Text Highlight\" is visible under \"Basic Content\" section\n📌 Scenario \"Validate available tools in \"Basic Content\" Section\" finished with status: PASSED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "designplus-–-\"button\"-tool-functionality;vvalidating-the-\"button\"-tool-functionality",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "VValidating the \"Button\" tool functionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 796699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "click on the \"Add New Elements\" button in DesignPLUS header",
+            "match": {
+              "location": "src\\StepDefinitions\\2.AddNewElement\\DesignPLUSHeaderSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3014309300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "user click on the \"Button\" tool under the \"Basic Content\" category in the \"Add New Elements\" tab",
+            "match": {
+              "location": "src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\1.GettingStarted\\BannerTitleSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 357581400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the \"Button\" editing tab should open in the DesignPLUS sidebar",
+            "match": {
+              "location": "src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\1.GettingStarted\\BannerTitleSteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15380099
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Content"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Style"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Quick Styles"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Advanced"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Preview"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "following panel should be visible in the \"Banner Title\" editing tab",
+            "match": {
+              "location": "src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\1.GettingStarted\\BannerTitleSteps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40387100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "\"Button\" tool should be created in the \"Rich Content Editor\" frame",
+            "match": {
+              "location": "src\\StepDefinitions\\3.AddNewElementAndEditCurrentElement\\2.BasicContent\\ButtonSteps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 944346099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1451300
+            },
+            "embeddings": [
+              {
+                "data": "🔄 Before: Reusing existing browser context...\n\"Add New Elements\" header is already visible, no need to click.\n✅ \"Button\" tool is successfully created in the \"Rich Content Editor\" frame\n📌 Scenario \"VValidating the \"Button\" tool functionality\" finished with status: PASSED\n",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bvt",
+            "line": 20
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "designplus-–-\"button\"-tool-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "DesignPLUS – \"Button\" Tool Functionality",
+    "tags": [],
+    "uri": "src\\features\\3.AddNewElementAndEditCurrentElement\\2.BasicContent\\A.Button.feature"
+  }
+]

@@ -1,0 +1,1 @@
+export const defaultTimeout = parseInt(process.env.DEFAULT_TIMEOUT, 10) || 60000;

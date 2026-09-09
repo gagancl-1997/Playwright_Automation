@@ -1,0 +1,64 @@
+{
+  "name": "dp-automation-suite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "playwright": "cucumber-js --require-module ts-node/register --format json:cucumber-report.json",
+    "generate-report": "ts-node generate-report.ts",
+
+    "test:completeSuite:chromium": "cross-env REPORT_SUITE=\"Complete Suite\" BROWSER=Chromium npm run playwright -- src/features/**/**/*.feature",
+    "test:completeSuite:firefox": "cross-env REPORT_SUITE=\"Complete Suite\" BROWSER=Firefox npm run playwright -- src/features/**/**/*.feature ",
+    "test:completeSuite:webkit": "cross-env REPORT_SUITE=\"Complete Suite\" BROWSER=Webkit npm run playwright -- ssrc/features/**/**/*.feature",
+    "test:completeSuite:msedge": "cross-env REPORT_SUITE=\"Complete Suite\" BROWSER=MSedge npm run playwright -- src/features/**/**/*.feature",
+    "test:completeSuite:runAllBrowsersSimultaneously": "concurrently \"npm run test:completeSuite:chromium\" \"npm run test:completeSuite:firefox\" \"npm run test:completeSuite:webkit\" \"npm run test:completeSuite:msedge\"",
+    "test:bvt:chromium": "cross-env REPORT_SUITE=BVT BROWSER=Chromium npm run playwright -- --tags @bvt",
+    "test:bvt:firefox": "cross-env REPORT_SUITE=BVT BROWSER=Firefox npm run playwright -- --tags @bvt",
+    "test:bvt:webkit": "cross-env REPORT_SUITE=BVT BROWSER=Webkit npm run playwright -- --tags @bvt",
+    "test:bvt:msedge": "cross-env REPORT_SUITE=BVT BROWSER=MSedge npm run playwright -- --tags @bvt",
+    "test:bvt:runAllBrowsersSimultaneously": "concurrently \"npm run test:bvt:chromium\" \"npm run test:bvt:firefox\" \"npm run test:bvt:webkit\" \"npm run test:bvt:msedge\"",
+    "test:regressionsuite1:chromium": "cross-env REPORT_SUITE=\"Regression Suite - 1\" BROWSER=Chromium npm run playwright -- --tags @regression_suite1",
+    "test:regressionsuite1:firefox": "cross-env REPORT_SUITE=\"Regression Suite - 1\" BROWSER=Firefox npm run playwright -- --tags @regression_suite1",
+    "test:regressionsuite1:webkit": "cross-env REPORT_SUITE=\"Regression Suite - 1\" BROWSER=Webkit npm run playwright -- --tags @regression_suite1",
+    "test:regressionsuite1:msedge": "cross-env REPORT_SUITE=\"Regression Suite - 1\" BROWSER=MSedge npm run playwright -- --tags @regression_suite1",
+    "test:regressionsuite1:runAllBrowsersSimultaneously": "concurrently \"npm run test:regressionsuite1:chromium\" \"npm run test:regressionsuite1:firefox\" \"npm run test:regressionsuite1:webkit\" \"npm run test:regressionsuite1:msedge\"",
+    "test:regressionsuite2:chromium": "cross-env REPORT_SUITE=\"Regression Suite - 2\" BROWSER=Chromium npm run playwright -- --tags @regression_suite2",
+    "test:regressionsuite2:firefox": "cross-env REPORT_SUITE=\"Regression Suite - 2\" BROWSER=Firefox npm run playwright -- --tags @regression_suite2",
+    "test:regressionsuite2:webkit": "cross-env REPORT_SUITE=\"Regression Suite - 2\" BROWSER=Webkit npm run playwright -- --tags @regression_suite2",
+    "test:regressionsuite2:msedge": "cross-env REPORT_SUITE=\"Regression Suite - 2\" BROWSER=MSedge npm run playwright -- --tags @regression_suite2",
+    "test:regressionsuite2:runAllBrowsersSimultaneously": "concurrently \"npm run test:regressionsuite2:chromium\" \"npm run test:regressionsuite2:firefox\" \"npm run test:regressionsuite2:webkit\" \"npm run test:regressionsuite2:msedge\"",
+    "test:regressionsuite3:chromium": "cross-env REPORT_SUITE=\"Regression Suite - 3\" BROWSER=Chromium npm run playwright -- --tags @regression_suite3",
+    "test:regressionsuite3:firefox": "cross-env REPORT_SUITE=\"Regression Suite - 3\" BROWSER=Firefox npm run playwright -- --tags @regression_suite3",
+    "test:regressionsuite3:webkit": "cross-env REPORT_SUITE=\"Regression Suite - 3\" BROWSER=Webkit npm run playwright -- --tags @regression_suite3",
+    "test:regressionsuite3:msedge": "cross-env REPORT_SUITE=\"Regression Suite - 3\" BROWSER=MSedge npm run playwright -- --tags @regression_suite3",
+    "test:regressionsuite3:runAllBrowsersSimultaneously": "concurrently \"npm run test:regressionsuite3:chromium\" \"npm run test:regressionsuite3:firefox\" \"npm run test:regressionsuite3:webkit\" \"npm run test:regressionsuite3:msedge\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This project is a UI automation framework using **Playwright**, **Cucumber**, and **TypeScript**. \r This framework enables the creation of BDD-style test scenarios and their execution across supported browsers.",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.6.0",
+    "@playwright/test": "^1.57.0",
+    "@types/chai": "^5.2.2",
+    "@types/node": "^22.19.7",
+    "concurrently": "^9.2.0",
+    "cross-env": "^10.0.0",
+    "cucumber-html-reporter": "^6.0.0",
+    "playwright": "^1.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.0",
+    "minimist": "^1.2.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/cidilabs/testing/dp-automation.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/cidilabs/testing/dp-automation/issues"
+  },
+  "homepage": "https://gitlab.com/cidilabs/testing/dp-automation#readme"
+}
